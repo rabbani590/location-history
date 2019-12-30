@@ -1,0 +1,28 @@
+Visualize your Google location history
+
+load the google location history data
+from https://takeout.google.com/?hl=en&utm_source=google-account&utm_medium=web
+
+1.parse lat, lon, and timestamp from the dict inside the locations column
+
+2.convert lat/lon to decimalized degrees and the timestamp to date-time
+
+3.drop columns we don't need, then show a slice of the dataframe(locations,timestamp)
+
+4.Now map the entire dataset 
+	# define map colors
+	# create the plot
+
+5.Now map just India
+	# first define a transverse mercator projection for India
+	# plot the map
+
+
+
+
+
+
+
+
+
+
